@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Arla Collections</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <style>
+      .jumbotron {
+          background-position: center center;
+          background-size: cover;
+          background-image:url('my.png');
+          background-color:#FF4500;
+          color: #FFFFFF;
+          padding: 200px 25px;
+          font-family: Montserrat, sans-serif;
+      }
+      .bg-grey {
+          background-color: #f6f6f6;
+          padding: 50px 25px;
+      }
+      .regular{
+          padding: 50px 25px;
+      }
+      .logo-small {
+          color: #FF4500;
+          font-size: 50px;
+      }
+      .logo {
+          color: #FF4500;
+        font-size: 200px;
+      }
+      .navbar {
+          margin-bottom: 0;
+          background-color: #FF4500;
+          z-index: 9999;
+          border: 0;
+          font-size: 12px !important;
+          line-height: 1.42857143 !important;
+          letter-spacing: 4px;
+          border-radius: 0;
+          font-family: Montserrat, sans-serif;
+          filter: alpha(opacity=80);
+          opacity: .9;
+
+      }
+
+      .navbar li a, .navbar .navbar-brand {
+          color: #fff !important;
+      }
+
+      .navbar-nav li a:hover, .navbar-nav li.active a {
+          color: #FF4500 !important;
+          background-color: #fff !important;
+      }
+
+      .navbar-default .navbar-toggle {
+          border-color: transparent;
+          color: #fff !important;
+      }
+      footer.glyphicon {
+          font-size: 20px;
+          margin-bottom: 20px;
+          color: #f4511e;
+      }
+      body {
+          font: 400 15px Lato, sans-serif;
+          line-height: 1.8;
+          color: #818181;
+      }
+      h2 {
+          font-size: 24px;
+          text-transform: uppercase;
+          color: #303030;
+          font-weight: 600;
+          margin-bottom: 30px;
+      }
+
+      h4 {
+          font-size: 19px;
+          line-height: 1.375em;
+          color: #303030;
+          font-weight: 400;
+          margin-bottom: 30px;
+      }
+      @media screen and (max-width: 768px) {
+      .col-sm-4 {
+          text-align: center;
+          margin: 25px 0;
+      }
+
+    </style>
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#myPage"><span class="fa fa-home" style="font-size:16px"/></a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="http://ec2-34-211-58-18.us-west-2.compute.amazonaws.com/shop/">SHOP</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <div class="jumbotron text-center">
+      <h1>Arla Collections</h1>
+      <p>We define Art ! ! !</p>
+    </div>
+
+    <div id="about" class="container-fluid regular">
+        <div class="row">
+         <div class="col-sm-4">
+          <img src="logo.png"/>
+            <!--span class="glyphicon glyphicon-asterisk logo"></span -->
+          </div>
+          <div class="col-sm-8">
+            <h2>About Company Page</h2>
+            <h4>Lorem ipsum..</h4>
+            <p>Lorem ipsum..</p>
+            <button class="btn btn-default btn-lg"><a href="#contact">Get in Touch</a></button>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid bg-grey">
+      <div class="row">
+
+         <div class="col-sm-8">
+           <h2>Our Values</h2>
+           <h4><strong>MISSION:</strong> Our mission lorem ipsum..</h4>
+           <p><strong>VISION:</strong> Our vision Lorem ipsum..</p>
+         </div>
+         <div class="col-sm-4">
+           <span class="glyphicon glyphicon-globe logo"></span>
+         </div>
+      </div>
+    </div>
+
+    <div id="services" class="container-fluid text-center regular">
+      <h2>SERVICES</h2>
+      <h4>What we offer</h4>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-leaf logo-small"></span>
+          <h4>Crochet</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="fa fa-paint-brush" style="font-size:48px;color:#FF4500"></span>
+          <h4>Painting</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="fa fa-youtube-play" style="font-size:48px;color:#FF4500"></span>
+          <h4>Videos</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        </div>
+        <br><br>
+    </div>
+
+    <div id="shop" class="container-fluid text-center regular">
+      <div class="text-center">
+    <h2>SHOP</h2>
+    <h4>Choose a payment plan that works for you</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Basic</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>20</strong> Lorem</p>
+          <p><strong>15</strong> Ipsum</p>
+          <p><strong>5</strong> Dolor</p>
+          <p><strong>2</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$19</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Pro</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>50</strong> Lorem</p>
+          <p><strong>25</strong> Ipsum</p>
+          <p><strong>10</strong> Dolor</p>
+          <p><strong>5</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$29</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Premium</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>100</strong> Lorem</p>
+          <p><strong>50</strong> Ipsum</p>
+          <p><strong>25</strong> Dolor</p>
+          <p><strong>10</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$49</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+    <div id="contact" class="container-fluid bg-grey">
+        <h2 class="text-center">CONTACT</h2>
+        <br>
+        <div class="row">
+          <div class="col-sm-6 ">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p><span class="fa fa-map-marker" style="font-size:24px;color:#FF4500"></span> Irving, Texas, US</p>
+            <p><span class="fa fa-phone" style="font-size:24px;color:#FF4500"></span> +1 (469)-500-3303</p>
+            <p><span class="fa fa-envelope" style="font-size:24px;color:#FF4500"></span> collectionsarla@gmail.com</p>
+          </div>
+          <div class="col-sm-6">
+            <div class = "row" >
+              <a href=""><i class="fa fa-facebook-square" style="font-size:48px;color:#FF4500"></i></a> &nbsp;&nbsp;&nbsp;
+              <a href=""><i class="fa fa-twitter-square" style="font-size:48px;color:#FF4500"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href=""><i class="fa fa-instagram" style="font-size:48px;color:#FF4500"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href=""><i class="fa fa-pinterest-square" style="font-size:48px;color:#FF4500"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href=""><i class="fa fa-etsy" style="font-size:38px;color:#FF4500"></i></a>&nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>All rights reserved @ <a href="http://arlacollections.com">Arla Collections</a></p>
+      </footer>
+
+      <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links in navbar + footer link
+          $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+           // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+              });
+            } // End if
+          });
+        })
+        </script>
+
+  </body>
+</html>
